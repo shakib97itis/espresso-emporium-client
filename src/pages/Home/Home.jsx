@@ -1,12 +1,18 @@
-import { Outlet } from 'react-router-dom'
-import Header from '../../components/Header/Header'
 import Hero from '../../components/Hero/Hero'
 import Feature from '../../components/Feature/Feature'
 function Home() {
     return (
         <>
-            <Hero />
-            <Feature />
+            {/* <Hero /> */}
+
+            {/* Features */}
+            <div className="bg-alabaster">
+                <Feature />
+            </div>
+            {/* Popular products */}
+            <div>
+
+            </div>
         </>
     )
 }
